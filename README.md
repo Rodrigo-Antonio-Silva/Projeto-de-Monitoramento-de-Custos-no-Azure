@@ -11,14 +11,14 @@ As etapas realizadas foram registradas em imagens para ilustrar o processo.
 ### 1. Análise de Custos  
 Foi realizada a análise de custos consolidados da assinatura, identificando os principais serviços que impactam o orçamento.  
 
-![Análise de Custos](01-cost-analysis.png)
+![Análise de Custos](imagens\01-cost-analysis.png)
 
 ---
 
 ### 2. Orçamento Definido  
 Criado um orçamento no valor de **10 USD/mensal** com validade de 2 anos (01/09/2025 a 31/08/2027).  
 
-![Orçamento](02-budget.png)
+![Orçamento](imagens\02-budget.png)
 
 ---
 
@@ -27,21 +27,21 @@ Aplicadas **tags obrigatórias** para garantir rastreabilidade e governança dos
 - `project: lab`  
 - `owner: Rodrigo`  
 
-![Tags](03-tags.png)
+![Tags](imagens\03-tags.png)
 
 ---
 
 ### 4. Política de Governança (Azure Policy)  
 Implementada a política **exigirTag** para impedir a criação de novos recursos sem as devidas marcações.  
 
-![Policy](05-policy.png)
+![Policy](imagens\05-policy.png)
 
 ---
 
 ### 5. Alertas de Custos  
 Configurados alertas para monitorar o consumo e evitar estouro do orçamento definido.  
 
-![Alertas](04-advisor.png)
+![Alertas](imagens\04-advisor.png)
 
 ---
 
